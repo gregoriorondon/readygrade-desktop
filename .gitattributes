@@ -1,0 +1,14 @@
+node_modules/ filter=lfs diff=lfs merge=lfs -text
+node_modules/electron/dist/electron filter=lfs diff=lfs merge=lfs -text
+node_modules/electron/dist/icudtl.dat filter=lfs diff=lfs merge=lfs -text
+node_modules/electron/dist/LICENSES.chromium.html filter=lfs diff=lfs merge=lfs -text
+node_modules/electron/dist/libvulkan.so.1 filter=lfs diff=lfs merge=lfs -text
+node_modules/electron/dist/libGLESv2.so filter=lfs diff=lfs merge=lfs -text
+node_modules/electron/dist/resources.pak filter=lfs diff=lfs merge=lfs -text
+node_modules/electron/dist/libvk_swiftshader.so filter=lfs diff=lfs merge=lfs -text
+node_modules/electron/dist/libffmpeg.so filter=lfs diff=lfs merge=lfs -text
+node_modules/electron/dist/chrome_crashpad_handler filter=lfs diff=lfs merge=lfs -text
+node_modules/electron/dist/locales/*.pak filter=lfs diff=lfs merge=lfs -text
+node_modules/@types/node/*.ts filter=lfs diff=lfs merge=lfs -text
+node_modules/@types/node/ts4.8/*.ts filter=lfs diff=lfs merge=lfs -text
+node_modules/eslint/lib/rules/*.js filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,29 @@
+{
+  "name": "notas",
+  "version": "1.0.0",
+  "description": "Gestor de notas uptt",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "electron-packager .",
+    "buildwin": "electron-builder"
+  },
+  "buildwin": {
+    "appId": "my-app",
+    "asar": "true",
+    "win": {
+      "target": "NSIS",
+      "icon": "icon.ico"
+    }
+  },
+  "author": "Gregorio Rondon",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
