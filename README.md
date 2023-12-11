@@ -3,7 +3,7 @@ Este es un proyecto para la gestión de notas de la Universidad Politécnica Ter
 
 Esta es la versión de escritorio desarrollada con [Electronjs](https://www.electronjs.org/) para una mejor compatibilidad multiplataforma, es decir compatible con sistemas operativos como Windows, MacOS, distribuciones GNU/Linux y los sistemas UNIX o BSD usando el mismo código escrito.
 
-## :pushpin: Nota:
+## 📌 Nota:
 Tenga en cuenta que para probar esta versión debe tener instalado el paquete [Node.js](https://nodejs.org/en) para poder ejecutar los comandos npm.
 
 ### Para ejecutar o iniciar
