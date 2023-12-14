@@ -1,4 +1,4 @@
-# ReadyGrade Desktop Version
+# ReadyGrades Desktop Version
 Este es un proyecto para la gestión de notas de la Universidad Politécnica Territorial del estado Trujillo Mario Briceño Iragorry del Municipio Miranda. Actualmente se encuentra en fase de desarrollo.
 
 Esta es la versión de escritorio desarrollada con [Electronjs](https://www.electronjs.org/) para una mejor compatibilidad multiplataforma, es decir compatible con sistemas operativos como Windows, MacOS, distribuciones GNU/Linux y los sistemas UNIX o BSD usando el mismo código escrito.
@@ -15,7 +15,5 @@ npm run dev
 
 Si todo esta correctamente debería iniciar una ventana de [Electronjs](https://www.electronjs.org/) del proyecto actual.
 
-## Advertencia
-Este sistema apenas está en desarrollo, así que en algunos momentos puede llegar a fallar e incluso faltar dependencias, así que se recomienda no usarlo para producción real.
-
-Si Dios lo permite, puede que en alrededor de un año se pueda tener la versión estable del proyecto y su descarga del instalador para que no se tenga que ejecutar por comandos ni instalar dependencias innecesarias.
+> [!WARNING]
+> Este sistema apenas está en desarrollo, así que en algunos momentos puede llegar a fallar e incluso faltar dependencias, así que se recomienda no usarlo para producción real. Si Dios lo permite, puede que en alrededor de un año se pueda tener la versión estable del proyecto y su descarga del instalador para que no se tenga que ejecutar por comandos ni instalar dependencias innecesarias.
