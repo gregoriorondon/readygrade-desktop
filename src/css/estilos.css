@@ -14,21 +14,23 @@
 }
 .cuerpo{
     margin: 0px;
+    height: 100%;
 }
 .container {  
     display: grid;
-    grid-template-columns: 35% auto;
+    grid-template-columns: 350px auto;
     grid-template-rows: auto;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
     ". .";
+    height: 100%;
 }
 
 .nav-action {  
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 10% 100%;
+    grid-template-rows: 77px;
     gap: 0px 0px;
     grid-auto-flow: row;
     grid-template-areas:
@@ -65,6 +67,9 @@
 .login{
     width: 350px;
     margin: 14px auto 14px auto;
+}
+.action{
+    background-color: var(--fondo);
 }
 .login input, #submit{
     border-style: solid;
@@ -156,6 +161,14 @@
 .logpass label:hover{
     background-color: var(--btnsemitransp);
 }
+.pre-sep{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.sep{
+    flex-grow: 1 0 auto;
+}
 .foot{
     text-align: center;
     color: var(--texto2);
@@ -163,6 +176,7 @@
     font-size: 10px;
     background-color: var(--btnsemitransp);
     padding: 21px;
+    z-index: -1;
 }
 .logpass input{
     background: var(--botones);
